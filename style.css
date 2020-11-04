@@ -1,0 +1,40 @@
+/* CSS files add styling rules to your content */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 0;
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+
+.switch{
+  font-family: Helvetica, sans-serif;
+  position: absolute;
+  left:40px;
+  top:50px;
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 10px;
+  transition: border-bottom 0.3s, transform 0.3s, border-top 0.3s;
+}
+
+.switch:hover{
+  cursor: pointer;
+  border-bottom: 4px solid black;
+  transform: translateY(-3px);
+}
+
+.switch:active{
+  cursor: pointer;
+  border-top: insight 4px solid black;
+  transform: translateY(3px);
+}
